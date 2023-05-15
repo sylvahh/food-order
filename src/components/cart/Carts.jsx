@@ -4,7 +4,6 @@ import styles from '../../Styles.module.css';
 import Modal from '../UI/Modal';
 import CartItem from './CartItem';
 
-const dummy = [{ id: 1, name: 'sushi', price: '12.99' }];
 
 const Carts = ({ onCloseModal }) => {
   const cartCtx = useContext(CartContext);
